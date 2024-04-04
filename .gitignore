@@ -1,0 +1,6 @@
+/venv
+/.idea
+/__pycache__
+.vscode
+helper.txt
+testes.py
