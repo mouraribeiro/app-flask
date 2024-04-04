@@ -1,5 +1,5 @@
 import datetime
-from flask import Flask, Response, json,make_response,jsonify, request
+from flask import Flask, Response, json, request
 from flask_sqlalchemy import SQLAlchemy
 from passlib.hash import pbkdf2_sha256
 
@@ -99,10 +99,6 @@ def cria_usuario():
     db.session.commit()
     return Response("foi")
 
-    # try:
-        
-    # except Exception as e:
-    #     print(e)
-    #     return Response("não foi")
+
 
 app.run()
